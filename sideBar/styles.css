@@ -6,9 +6,11 @@
 }
 
 body {
-    height: 100vh;
+    min-height: 100vh; /* !so the body can grow when needed*/
     display: grid;
     grid-template-columns: 300px 1fr;
+    /* ! 2- we have to set rows too */
+    grid-template-rows: auto 1fr auto;
     grid-template-areas: 
         "navbar navbar"
         "sidebar main"
@@ -19,6 +21,7 @@ body {
 nav {
     background-color: slateblue;
     grid-area: navbar;
+    padding: 1rem;
 }
 
 
@@ -37,4 +40,5 @@ nav {
 footer {
     background-color: slategrey;
     grid-area: footer;
+    padding: 1rem;
 }
