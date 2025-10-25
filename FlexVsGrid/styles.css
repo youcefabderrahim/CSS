@@ -21,7 +21,8 @@ body {
 nav {
     background-color: slateblue;
     grid-area: navbar;
-    padding: 1rem;
+    /* !3- we can apply padding and it won't mess the grid  */
+    padding: 1rem
 }
 
 
@@ -30,11 +31,20 @@ nav {
  aside {
     background-color: saddlebrown;
     grid-area: sidebar;
+    /* position: fixed;
+    top: 51px;
+    height: 100%;
+    width: 300px; */
+}
+.hidden {
+    display: none;
 }
 
  main {
     background-color: seagreen;
     grid-area: main;
+    flex: 1;
+
 }
 
 footer {
