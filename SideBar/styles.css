@@ -24,14 +24,21 @@ nav {
 aside {
     background-color: sienna;
     width: 300px;
+    padding: 1rem;
 }
 
 main {
     background-color: seagreen;
     flex: 1;
+    padding: 1rem;
 }
 
 footer {
     background-color: saddlebrown;
     padding: 1rem;
+}
+
+
+.hidden {
+    display: none;
 }
