@@ -21,7 +21,7 @@ nav {
     display: flex;
     flex: 1;
 }
-aside {
+.aside {
     background-color: sienna;
     width: 300px;
     padding: 1rem;
