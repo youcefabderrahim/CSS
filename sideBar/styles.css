@@ -15,12 +15,20 @@ nav {
     background-color: slateblue;
 }
 
+
+.main-section {
+    display: flex;
+    flex: 1;
+}
+
 .main-section aside {
     background-color: saddlebrown;
+    width: 300px;
 }
 
 .main-section main {
     background-color: seagreen;
+    flex: 1;
 }
 
 footer {
