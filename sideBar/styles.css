@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    background-color: slateblue;
+}
+
+.main-section aside {
+    background-color: saddlebrown;
+}
+
+.main-section main {
+    background-color: seagreen;
+}
+
+footer {
+    background-color: slategrey;
+}
