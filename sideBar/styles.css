@@ -7,30 +7,34 @@
 
 body {
     height: 100vh;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-areas: 
+        "navbar navbar"
+        "sidebar main"
+        "sidebar footer";
+
 }
 
 nav {
     background-color: slateblue;
+    grid-area: navbar;
 }
 
 
-.main-section {
-    display: flex;
-    flex: 1;
-}
 
-.main-section aside {
+
+ aside {
     background-color: saddlebrown;
-    width: 300px;
+    grid-area: sidebar;
 }
 
-.main-section main {
+ main {
     background-color: seagreen;
-    flex: 1;
+    grid-area: main;
 }
 
 footer {
     background-color: slategrey;
+    grid-area: footer;
 }
