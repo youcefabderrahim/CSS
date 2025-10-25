@@ -5,3 +5,19 @@
     font-size: 16px;
     font-family: "Poppins",sans-serif;
 }
+
+nav {
+    background-color: slateblue;
+}
+
+aside {
+    background-color: sienna;
+}
+
+main {
+    background-color: seagreen;
+}
+
+footer {
+    background-color: saddlebrown;
+}
